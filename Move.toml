@@ -1,0 +1,16 @@
+[package]
+name = "risein"
+version = "1.0.0"
+authors = []
+
+[addresses]
+risein = "0xe83586b3449eac0a3f7d71825e290938b249d4d6359bcdc0e6e059ba91dacbaa"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
